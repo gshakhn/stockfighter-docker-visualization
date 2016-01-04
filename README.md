@@ -41,7 +41,7 @@ My code log the following messages in the following format to Logstash:
 The [base elk repo](https://github.com/ChristianKniep/docker-elk/blob/master/etc/default/logstash/00_entry.conf) has the built in ones for this container.
 I use UDP on port 55514 using [logstash-logback-encoder](https://github.com/logstash/logstash-logback-encoder).
 
-You can also add your own. See the [Logstash docs](https://www.elastic.co/guide/en/logstash/current/input-plugins.html) for choices.
+You can also add your own. See the [Logstash docs](https://www.elastic.co/guide/en/logstash/current/input-plugins.html) for choices. There is also another [ELK docker](https://github.com/spujadas/elk-docker) repo that has examples on how to configure input.
 
 Some ideas, in no particular order and no comment on usefulness:
 * Automatically tweet your profit and use the Twitter input.
